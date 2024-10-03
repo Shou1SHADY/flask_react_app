@@ -28,27 +28,31 @@ This is a React-based Data Table application that allows users to view, add, and
 
 ### Frontend Setup
 
-````bash
+```bash
 git clone https://github.com/your-username/data-table-app.git
 cd data-table-app
 npm install
 npm start
+```
 
+### Backend Setup
+
+```bash
 cd backend
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 flask db upgrade
 flask run
+```
 
 ## API Endpoints
 
-| Method | Endpoint                 | Description               |
-|--------|--------------------------|---------------------------|
-| GET    | `/existing-values`        | Fetch all existing values |
-| POST   | `/existing-values`        | Add a new value           |
-| DELETE | `/existing-values/:id`    | Delete a value by its ID  |
-
+| Method | Endpoint               | Description               |
+| ------ | ---------------------- | ------------------------- |
+| GET    | `/existing-values`     | Fetch all existing values |
+| POST   | `/existing-values`     | Add a new value           |
+| DELETE | `/existing-values/:id` | Delete a value by its ID  |
 
 ## Environment Variables
 
@@ -134,4 +138,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-````
+```
