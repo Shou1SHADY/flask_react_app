@@ -1,0 +1,66 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.pyo
+*.pyc
+
+# Environment settings
+env/
+venv/
+ENV/
+venv.bak/
+venv/
+
+# Flask & Python config files (if generated)
+instance/
+config.py
+*.ini
+*.log
+
+# Local environment settings
+*.env
+*.flaskenv
+
+# Database files
+*.sqlite3
+*.db
+
+# Virtual environment
+bin/
+lib/
+include/
+scripts/
+pyvenv.cfg
+
+# Logs and other generated files
+*.log
+*.pot
+*.py[co]
+
+# VSCode project files (if you're using VSCode)
+.vscode/
+
+# Mac specific
+.DS_Store
+
+# Jupyter Notebooks (if used)
+.ipynb_checkpoints/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# pipenv files
+Pipfile.lock
